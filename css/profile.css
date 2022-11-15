@@ -1,0 +1,62 @@
+
+.profile-container{
+    width:100%;
+    height: 100%;
+    padding-top: 40px;
+    background-color: #0F0E13;
+}
+
+.connect-wallet{
+    opacity: 1;
+}
+
+.btn-pink{
+    background-color: #E2008F;
+    color: white;
+    margin-right: 100px;
+}
+
+.btn-pink:hover{
+    background-color: #c80581;
+    color: white;
+    margin-right: 100px;
+}
+small{
+    font-size: small;
+}
+.line-grediant-profile{
+    width: 110px;
+    height: 5px;
+    background: #E2008F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2008F, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2008F, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 20px;
+}
+
+.balance{
+    color:#00FFFF;
+}
+
+.box-balance{
+    background-color: #242526;
+    width:100%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.box-balance-border{
+    border-right: 1px solid gray;
+}
+
+.box-balance-border-last{
+    border-right: none;
+}
+.discord-btn-img{
+    width:50px;
+}
+@media screen and (max-width: 760px) {
+ .box-balance-border img{
+        width:70px;
+  }
+
+}

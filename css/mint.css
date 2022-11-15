@@ -1,0 +1,107 @@
+/* mint-1 css*/
+
+.main-mint{
+    background-image: url(../img/monkeys.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    height: 100%;
+}
+
+.main-mint .connect-wallet{
+    min-width: 175px;
+}
+
+.mint-title{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#1bbed7, #DF018E, #1bbed7 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 70px;
+}
+
+.lgr-2{
+    width:100px;
+}
+
+.btn-pink{
+    margin-right: 0px !important;
+}
+
+.btn-black{
+    background-color: black;
+    border: 1px solid #6d0146;
+    color:rgb(126, 126, 126);
+}
+
+.footer-social-icon{
+    width:20px;
+}
+
+.social{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.zohar{
+    color: #1bbed7;
+}
+
+
+
+/* mint-2 css*/
+.box-mint{
+    background-color: black;
+    border: 1px solid #1bbed7;
+    color:white;
+    width:50%;
+    height: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+.progress-bar{
+    background-color: #1bbed7 !important;
+}
+
+.progress{
+    background-color: black;
+}
+
+.content-mint-2{
+    text-align: right;
+}
+
+.max{
+    border:1px solid #1bbed7;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.quantity span{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.qm{
+    color: #1bbed7 !important;
+}
+
+.testimonion{
+    width: 100px;
+}
+
+@media screen and (max-width: 769px) {
+    .box-mint{
+        background-color: black;
+        border: 1px solid #1bbed7;
+        color:white;
+        width:99%;
+        height: 100%;
+        margin: auto;
+        border-radius: 20px;
+    }
+}
